@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshith-Web Developer,Programmer</title>
+    <style>
+        .Projectpage{
+            display:flex;
+            flex-direction: column;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+          }
+          
+          header {
+            background-color: #0c12c1;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+          }
+
+          
+          .project-details h2, .project-screenshots h2, .project-links h2 {
+            color: #333;
+            margin-bottom: 10px;
+          }
+          
+          .project-details p, .project-links p {
+            color: #666;
+            margin-bottom: 10px;
+          }
+          
+          
+          
+          .project-screenshots {
+            margin-bottom: 20px;
+            display:flex;
+          }
+          
+          .screenshot img {
+            width:200px;
+            height: 200px;
+            display: flex;
+          }
+          
+          .project-links ul {
+            list-style: none;
+            padding: 0;
+          }
+          
+          .project-links li {
+            margin-bottom: 10px;
+          }
+          
+          .project-links a {
+            color: #333;
+            text-decoration: none;
+          }
+          
+          footer {
+            background-color: #0c12c1;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+          }
+          @media (max-width:395px) {
+            * {
+              /*background-color:white*/;
+            }
+            /*.sidebar{
+                transform:translate(-443px,0px);
+                position:absolute;
+            }*/
+           .footer{
+            font-size:5px;
+           }
+           .project-links a{
+            font-size:5px;
+           }
+           .project-links li{
+            margin-bottom:1px;
+            
+
+           }
+           .screenshot img{
+            width:50px;
+            height:50px;
+           }
+           .project-screenshots {
+            margin-top: 3px;
+            display:flex;
+            flex-wrap:wrap;
+          }
+          header {
+            background-color: #0c12c1;
+            color: #fff;
+            padding: 2px;
+            text-align: center;
+            font-size: 10px;
+          }
+          @media (max-width: 600px) {
+            .screenshot img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            header {
+                padding: 10px;
+                font-size: 18px;
+            }
+
+            .project-details p,
+            .project-links p {
+                font-size: 14px;
+            }
+
+            .project-links a {
+                font-size: 14px;
+            }
+
+            .screenshot img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+          }
+          
+          
+    </style>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            
+            <nav>
+                <ul>
+                <li><a href="\index.html">Home</a></li>
+                <li><a href="\Aboutme.html">About me</a></li>
+                <li><a href="\Blog.html">Blog</a></li>
+                <li><a href="\Projects.html">Projects</a></li>
+                <li><a href="\Achievements.html">Achievements</a></li>
+                <li><a href="\Contactus.html">Contact us</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham2.png" width="23" height="20px" alt="">
+                <img class="cross" src="cross.png" width="23" height="20px" alt="">
+            </div>
+            <div class="Projectpage">
+                <header>
+                    <h1>Project Title</h1>
+                    <p>Project Description</p>
+                  </header>
+                  <section class="project-details">
+                    <h2>About the Project</h2>
+                    <p>A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.</p>
+                    <p>Tic-tac-toe is a game in which two players take turns in drawing either an ` O' or an ` X' in one square of a grid consisting of nine squares. The winner is the first player to get three of the same symbols in a row. ...a game of tic-tac-toe.</p>
+                    <p>Technologies Used: HTML5, CSS3, JavaScript</p>
+                  </section>
+                  <h2>Screenshots</h2>
+                  <section class="project-screenshots">
+                    
+                    <div class="screenshot">
+                      <img src="project1.png" alt="Screenshot 1">
+                    </div>
+                    <div class="screenshot">
+                      <img src="project2.png" alt="Screenshot 2">
+                    </div>
+                  </section>
+                  
+                  <section class="project-links">
+                    <h2>Project Links</h2>
+                    <ul>
+                      <li><a href="calculator.html">Calculator</a></li>
+                      <li><a href="Tic toc toe.html">Tic Tac Toe</a></li>
+                    </ul>
+                  </section>
+                  <footer>
+                    <p>&copy; 2023 K HARSHITH</p>
+                  </footer>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

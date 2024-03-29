@@ -1,0 +1,37 @@
+K HARSHITH
+Full Stack Web Developer
+
+Contact Information:
+Email: kharshith@example.com
+Phone: (123) 456-7890
+LinkedIn: www.linkedin.com/in/kharshith
+
+Summary:
+Dedicated and skilled Full Stack Web Developer with a passion for creating user-friendly and efficient web applications. Proficient in both front-end and back-end development, experienced in working with various technologies and frameworks. Strong problem-solving abilities and a keen eye for detail. Committed to delivering high-quality code and continuously improving skills.
+
+Skills:
+- Programming Languages: JavaScript, HTML, CSS, Python, Java
+- Front-end Technologies: React,Bootstrap
+- Back-end Technologies: Node.js,Java
+- Database Systems: MySQL
+- Version Control: Git, GitHub
+
+Education:
+BTech in Computer Science
+Sree Vidyanikethan Engineering College
+
+Certifications:
+- Full Stack Web Development Certification-Immensphere
+- Datastructures and Algorithms-Infosys Springboard
+-Java(basic)-Hackerrank
+
+Projects:
+- Personal Portfolio Website: Created a responsive portfolio website showcasing skills, projects, and achievements.
+- Static web page of Amazon:Created a webpage of amazon using HTML and CSS.
+- Static web page of Swiggy:Created a webpage of amazon using HTML,CSS,Javascript.
+- Currency Converter:Converts currency of one nation to currency of another nation.
+
+References:
+Available upon request
+
+Note: The resume provided is a fictional representation of a basic full stack web developer resume. Feel free to modify and adapt it to your specific qualifications, experiences, and personal information.
